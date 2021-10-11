@@ -1,4 +1,4 @@
-import { staticEls } from "./src/elements";
+import { staticEls } from "./elements";
 
 const scripts = (() => {
     // fetch giphy api

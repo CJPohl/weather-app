@@ -1,4 +1,4 @@
-import { scripts } from "../script";
+import { scripts } from "./script";
 
 // module to create dom elements
 const staticEls = (() => {
@@ -14,7 +14,7 @@ const staticEls = (() => {
         _createFooter();
         scripts.addInputListener();
     }
-    
+
     // clear page
     function renderPage() {
         mainContainer.innerHTML = '';
