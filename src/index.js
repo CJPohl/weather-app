@@ -3,6 +3,7 @@
 // - Create object/class for weather statistics
 // - Stylize weather elements and find corresponding icons
 // - Add error control
+// - Styling animations for slow loads
 // - Maybe research eslint issue
 
 import './style.css';
