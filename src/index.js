@@ -1,20 +1,11 @@
-// TODO:
-// - Pick out important info from API
-// - Create object/class for weather statistics
-// - Stylize weather elements and find corresponding icons
-// - Add error control
-// - Styling animations for slow loads
-// - Maybe research eslint issue
+import "./style.css";
+import { elements } from "./elements";
 
-import './style.css';
-import { staticEls } from './elements';
-
-import '@fortawesome/fontawesome-free/js/fontawesome'
-import '@fortawesome/fontawesome-free/js/solid'
-import '@fortawesome/fontawesome-free/js/regular'
-import '@fortawesome/fontawesome-free/js/brands'
-
+import "@fortawesome/fontawesome-free/js/fontawesome";
+import "@fortawesome/fontawesome-free/js/solid";
+import "@fortawesome/fontawesome-free/js/regular";
+import "@fortawesome/fontawesome-free/js/brands";
 
 window.onload = () => {
-    staticEls.initPage();
-}
+  elements.initPage();
+};
